@@ -11,19 +11,8 @@
 | **Q2** | How many global indexes out of 10 outperformed S&P 500 YTD (as of Aug 21, 2026) | **2 indexes**: **Canada (TSX Composite: +14.86%)** and **Japan (Nikkei 225: +27.36%)** compared to S&P 500 return of **+11.90%**. |
 | **Q3** | Median drawdown during S&P 500 market corrections ($\ge 5\%$) since 1950 | **7.99%** (median recovery/cycle duration: **92.5 days**). 25th percentile: 6.23%, 75th percentile: 14.02%. |
 | **Q4** | Median 2-day return for AMZN after a positive Earnings Surprise | **+0.35%** (correlation between surprise magnitude and 2-day return: **+0.33**). |
-| **Q5** | Capstone Project Idea | **"Market Dashboard & Breadth Indicator"**: 3-level system (Global Trend -> Market Breadth % > SMA 50/200 -> Momentum/RSI) with traffic light signal generation (Green / Yellow / Red). |
-| **Q6** | New metrics to explore for the project | 1) % of stocks above 50-day and 200-day SMA; 2) Cumulative Advance-Decline Line (A/D Line); 3) Volatility Index (VIX); 4) Divergences between index price and market breadth. |
+| **Q5** | Capstone Project Idea | **Intermarket & Market Breadth Dashboard (ML-Driven Market Regime Detection & Downside Risk Timing)**: Multi-layer system integrating leading indices (`SPY`, `QQQ`, `DIA`, `SMH`), market breadth (`% > 20/50/100/200 EMA`, `RSP/SPY`), macro gauges (`^TNX`, `DXY`, `VIX/VVIX`), and `FBMA` ribbons with **HMM / XGBoost** regime classification and **Traffic Light (Green / Yellow / Red)** tactical allocation. |
+| **Q6** | Key metrics to explore for the project | 1) `% of stocks above 20, 50, 100, 200 EMAs`; 2) Breadth & Equal-Weight divergences (`RSP/SPY`, `SMH/SPY`); 3) Macro spreads & volatility spikes (`10Y Yields`, `DXY`, `VIX/VVIX`); 4) Multi-timeframe moving averages & `FBMA` bandwidth. |
 
 ---
 
-## 🚀 How to Run the Solution
-
-All computations are automated in a single script:
-
-```bash
-# Via Makefile
-make hw1
-
-# Or directly via uv
-uv run homeworks/hw01/solution.py
-```
