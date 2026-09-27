@@ -1,6 +1,8 @@
 # Homework 2 (Module 2 Homework — 2026 Cohort)
 **Course:** [Stock Markets Analytics Zoomcamp](https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp)
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ivazin/stock-markets-analytics-zoomcamp/blob/main/homeworks/hw02/main.ipynb)
+
 ---
 
 ## 📌 Summary and Answers to Questions
@@ -17,13 +19,17 @@
 
 ## 🛠️ Execution & Reproducibility
 
-The solution script is located at [`homeworks/hw02/solution.py`](solution.py).
+- **Interactive Jupyter Notebook:** [`homeworks/hw02/main.ipynb`](main.ipynb) ([Open directly in Google Colab](https://colab.research.google.com/github/ivazin/stock-markets-analytics-zoomcamp/blob/main/homeworks/hw02/main.ipynb))
+- **Python Script:** [`homeworks/hw02/solution.py`](solution.py)
 
-To reproduce the answers:
+To reproduce the answers via terminal:
 ```bash
 # Run the complete pipeline
 python homeworks/hw02/solution.py
+# or via make
+make hw2
 ```
+
 
 ### Detailed Breakdown
 

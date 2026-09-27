@@ -1,6 +1,8 @@
 # Homework 1 (Module 1 Homework — 2026 Cohort)
 **Course:** [Stock Markets Analytics Zoomcamp](https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp)
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ivazin/stock-markets-analytics-zoomcamp/blob/main/homeworks/hw01/main.ipynb)
+
 ---
 
 ## 📌 Summary and Answers to Questions
@@ -15,4 +17,9 @@
 | **Q6** | Key metrics to explore for the project | 1) `% of stocks above 20, 50, 100, 200 EMAs`; 2) Breadth & Equal-Weight divergences (`RSP/SPY`, `SMH/SPY`); 3) Macro spreads & volatility spikes (`10Y Yields`, `DXY`, `VIX/VVIX`); 4) Multi-timeframe moving averages & `FBMA` bandwidth. |
 
 ---
+
+## 🛠️ Interactive Notebook & Code
+
+- **Interactive Jupyter Notebook:** [`homeworks/hw01/main.ipynb`](main.ipynb) ([Open directly in Google Colab](https://colab.research.google.com/github/ivazin/stock-markets-analytics-zoomcamp/blob/main/homeworks/hw01/main.ipynb))
+- **Python Script:** [`homeworks/hw01/solution.py`](solution.py)
 
